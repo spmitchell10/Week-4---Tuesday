@@ -1,5 +1,10 @@
 body{
 	background-color: #563D7C;
+	font-family: 'Bitter', serif;
+}
+
+h1{
+	font-size: 50px;
 }
 
 .makemusic{
@@ -33,6 +38,25 @@ body{
 			.btn{
 				padding-top: 5px;
 			}
+		}
+	}
+}
+
+.title{
+	background: white;
+	color: #563D7C;
+	height: 200px;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.makemusic{
+	.row{
+		padding-top: 15px;
+		.subscribe-input{
+			width: 50%;
+			height: 40px;
 		}
 	}
 }
