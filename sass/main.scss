@@ -1,0 +1,38 @@
+body{
+	background-color: #563D7C;
+}
+
+.makemusic{
+	text-align: center;
+}
+
+.collapse{
+	background-color: black;
+}
+ audio{
+ 	width: 100%;
+ }
+
+ .well{
+		background: black;
+	}
+
+			
+.container{
+	.row{
+		color: white;
+		padding-top: 20px;
+		.drake{
+			padding-bottom: 20px;
+			.prince{
+				width: 180px;
+				height: 200px;
+				border-radius: 5%;
+				border: solid 2px white;
+			}
+			.btn{
+				padding-top: 5px;
+			}
+		}
+	}
+}
