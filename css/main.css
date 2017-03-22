@@ -1,5 +1,5 @@
 body {
-  background-color: #563D7C;
+  background: url("https://images5.alphacoders.com/349/thumb-1920-349660.jpg");
   font-family: 'Bitter', serif; }
 
 h1 {
@@ -34,7 +34,6 @@ audio {
       vertical-align: top;
       bottom: 0;
       position: absolute;
-      padding-bottom: 10px;
       margin-bottom: 15px;
       margin-left: -40px; }
 
