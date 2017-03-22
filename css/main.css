@@ -28,7 +28,8 @@ audio {
       border-radius: 5%;
       border: solid 2px white; }
     .container .row .drake .btn {
-      padding-top: 5px; }
+      padding-top: 5px;
+      vertical-align: top; }
 
 .title {
   background: white;
@@ -42,3 +43,6 @@ audio {
   .makemusic .row .subscribe-input {
     width: 50%;
     height: 40px; }
+  .makemusic .row .submit {
+    height: 40px;
+    width: 50px; }

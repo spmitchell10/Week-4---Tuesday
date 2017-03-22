@@ -37,6 +37,7 @@ h1{
 			}
 			.btn{
 				padding-top: 5px;
+				vertical-align: top; 
 			}
 		}
 	}
@@ -57,6 +58,10 @@ h1{
 		.subscribe-input{
 			width: 50%;
 			height: 40px;
+		}
+		.submit{
+			height: 40px;
+			width: 50px;
 		}
 	}
 }
