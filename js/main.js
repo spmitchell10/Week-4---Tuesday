@@ -1,8 +1,6 @@
-
-
 jQuery(function() {
 
-    getData("Dave Matthews");
+    getData("#");
 
     function getData(track) {
         $.ajax({
@@ -10,14 +8,17 @@ jQuery(function() {
             success: function(response) {
                 console.log(response);
                 response.forEach(function(music) {
+                    if (music.artwork_url === null) {
+                        music.artwork_url = 'http://www.focusonthecoast.com/wp-content/uploads/2014/02/making-music-placeholder-image.jpg';
+                    }
                     $('#musicapp').append(`
-                <div class="drake col-md-2">
-                  <img src="${music.artwork_url}" class="prince">
-                  <h4 class="jackson">${music.title}</h4>
-                  <button class="btn btn-primary" data-id="${music.id}" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Play Track</button> 
-                </div> 
+                        <div class="drake col-md-2">
+                          <img src="${music.artwork_url}" class="prince">
+                          <h4 class="jackson">${music.title}</h4>
+                          <button class="btn btn-primary" data-id="${music.id}" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Play Track</button> 
+                        </div> 
                        
-              `);
+                    `);
                 })
             }
         })

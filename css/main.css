@@ -19,9 +19,11 @@ audio {
 
 .container .row {
   color: white;
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px; }
   .container .row .drake {
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    height: 350px; }
     .container .row .drake .prince {
       width: 180px;
       height: 200px;
@@ -29,7 +31,12 @@ audio {
       border: solid 2px white; }
     .container .row .drake .btn {
       padding-top: 5px;
-      vertical-align: top; }
+      vertical-align: top;
+      bottom: 0;
+      position: absolute;
+      padding-bottom: 10px;
+      margin-bottom: 15px;
+      margin-left: -40px; }
 
 .title {
   background: white;
